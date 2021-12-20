@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: 0%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: green;
+    border: solid 1px;
+    align-items: center;
+    height: 120px;
+
+}
+nav a{
+
+text-decoration:none;
+text-transform: uppercase;
+background-color: brown;
+color: rgb(0, 9, 128);
+border: solid 1px white;
+border-radius: 45%;
+margin: 5px;
+padding: 5px;
+}
+nav a:hover{
+    color: seagreen;
+    border-radius: 20%;
+    background: springgreen;
+}
+div input{
+    background-color: yellow;
+    border-radius: 15%;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+section:nth-child(2){
+    background: coral;
+}
+section:nth-child(3){
+    display: flex;
+    background: darkblue;
+    justify-content: space-between;
+}
+section:nth-child(3) div img{
+    height: 200px;
+    width: 200px;
+
+}
